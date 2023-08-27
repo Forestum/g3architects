@@ -1,0 +1,260 @@
+/* ------------------
+    PAGE SETTINGS 
+---------------------*/
+*{
+    margin: auto;
+}
+
+/* --------------
+        FONT
+--------------- */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  *{
+    font-family: 'Poppins', sans-serif;
+  }
+/*-------------------
+     NAVIGATION 
+---------------------*/
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.header{
+    font-size: 25px;
+}
+.nav ul a{
+    text-decoration: none;
+    margin-right: 50px;
+    color: #424242;
+    font-size: 16px;
+}
+/* -------------------------------
+        1st PAGE INFO
+--------------------------------- */
+.main-page-info{
+    background: rgba(255, 144, 14, 0.10);
+    text-align: center;
+}
+.main-page-texts{
+    width: 862px;
+}
+.main-page-title{
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.main-page-article{
+    font-size: 14px;
+    color: #727272;
+
+}
+.button1{
+    background-color: #FF900E;
+    color: white;
+    font-size: 16px;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    width: 150px;
+}
+.banner-image>img{
+    width: 1000px;
+    margin-bottom: 45px;
+}
+
+/* ---------------------
+    FEATURE SECTION
+----------------------- */
+.feature-section{
+    display: flex;
+    padding-top: 75px;
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-bottom: 50px;
+    
+}
+.photo>img{
+    width: 200px;
+    height: 200px;
+}
+.feature-photos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-right: 70px;
+}
+.feature-title{
+    font-size: 45px;
+}
+.color1{
+    color: #727272;
+}
+.color2{
+    color:#FF900E;
+}
+.feature-texts{
+    color: #727272;
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+/* ------------------
+    Fetures Arcticle
+------------------- */
+.features-article{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    margin-left: 100px;
+    margin-right: 250px;
+    margin-top: 150px;
+}
+.box{
+    border-left: 5px solid #FF900E;
+}
+.feauteres-article-container{
+    width: 50%;
+}
+.feature-article-image{
+    width: 50%;
+}
+.feature-article-header{
+    font-size: 45px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.feature-article-paragraph{
+    color:#727272;
+}
+.feature-article-image>img{
+    width: 130%;
+}
+.card{
+    margin-top: 30px;
+    margin-right: 50px;
+
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+.card h5{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.card p{
+    color: #727272;
+    font-size: 14px;
+}
+.button2{
+    position: absolute;
+    border-radius: 8px;
+background: #FF900E;
+color: white;
+padding: 25px;
+border: none;
+width: 250px;
+margin-top: 850px;
+margin-left: 150px;
+}
+.button2 h4{
+    font-size: 35px;
+}
+
+/* -------------
+      FACTS
+--------------- */
+.facts{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.facts-header{
+    margin-bottom: 25px;
+    font-size: 45px;
+    font-weight: 700;
+}
+.facts-text{
+    color: #727272;
+    font-size: 14px;
+}
+.facts-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.fact-card{
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 35px 30px;
+    width: 120px;
+    height: 120px;
+    
+}
+.fact-card  img{
+    width: 40%;
+}
+.fact-card h3{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.fact-card h5{
+    font-size: 14px;
+    color: #727272;
+}
+
+/* HOVER EFFECT FOR CARDS */
+.fact-card:hover{
+    transform: scale(110%);
+    transition: transform 0.1s linear;
+    background-color: yellowgreen;
+}
+
+/* -------------------
+    SPONSOR SECTION
+--------------------- */
+.sponsor-texts{
+    text-align: center;
+}
+.sponsor-texts h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.sponsor-texts p{
+    color:#727272;
+    margin-bottom: 20px;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.sponsors{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.sponsor{
+    width: 140px;
+}
+
+/* -------------------
+        FOOTER
+-------------------- */
+.footer{
+    background-color: #FFF4E7;
+    padding: 25px 300px;
+    width: 500px;
+    margin-top: 130px;
+    margin-bottom: 150px;
+}
+.footer p{
+    text-align: center;
+    color: #424242;
+}
