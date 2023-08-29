@@ -159,7 +159,7 @@ color: white;
 padding: 25px;
 border: none;
 width: 250px;
-margin-top: 850px;
+margin-top: 750px;
 margin-left: 150px;
 }
 .button2 h4{
@@ -342,7 +342,9 @@ margin-left: 150px;
         text-align: center;
     }
     .feature-photos{
+        grid-template-columns: repeat(1, 1fr);
         margin-bottom: 20px;
+        margin-left: 0px;
         align-items: center;
         margin-right: 0PX;
     }
@@ -386,7 +388,7 @@ margin-left: 150px;
         width: 100px;
         padding: 10px;
         margin-left: 150px;
-        margin-top: 1400px;
+        margin-top: 1450px;
         font-size: 10px;
     }
     .button2 h4{
