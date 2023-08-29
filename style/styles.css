@@ -171,7 +171,7 @@ margin-left: 150px;
 --------------- */
 .facts{
     margin-top: 150px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     margin-right: 100px;
     margin-left: 100px;
 }
@@ -243,6 +243,32 @@ margin-left: 150px;
 .sponsor{
     width: 140px;
 }
+/* ---------------------
+        CONTACT US
+----------------------- */
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 100px;
+}
+.contact-us h5{
+    font-size: 45px;
+}
+.name, .email, .message{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 600px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #FFFEE0;
+}
+.message{
+    margin-left: 205px;
+    margin-right: 205px;
+}
+
 
 /* -------------------
         FOOTER
@@ -280,9 +306,6 @@ margin-left: 150px;
     .header{
         font-size: 35px;
     }
-    .pages{
-        
-    }
     .pages ul{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -290,10 +313,13 @@ margin-left: 150px;
         padding-left: 0px;
     }
     .pages ul td{
+        text-align: center;
+        vertical-align: middle;
     }
     .pages ul a{
         font-size: 30px;
         margin-bottom: 10px;
+        margin-right: 0px;
     }
 
     /* main page */
@@ -384,6 +410,24 @@ margin-left: 150px;
     }
     .sponsor{
         width: 50%;
+    }
+
+    /* CONTACT US */
+    .contact-us h5{
+        font-size: 45px;
+    }
+    .name, .email, .message{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 100px;
+        border-radius: 5px;
+        border-style: none;
+        background-color: #FFFEE0;
+    }
+    .message{
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
     /* FOOTER */
